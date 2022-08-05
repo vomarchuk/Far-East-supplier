@@ -1,2 +1,7 @@
-@import './base/main';
 @import'./utils/main';
+@import './base/main';
+@import './components/main';
+
+
+@import './layout/header/main.scss';
+@import './layout/main/main.scss';

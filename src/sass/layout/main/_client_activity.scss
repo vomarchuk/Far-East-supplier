@@ -1,0 +1,31 @@
+.client__activity {
+  margin-top: 64px;
+}
+
+.list {
+  margin-top: 32px;
+}
+
+.list__item:not(:first-child) {
+  margin-top: 10px;
+}
+
+.list__item {
+
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+
+
+
+}
+
+.activity__label {
+  display: flex;
+  align-items: baseline;
+
+  padding: 24px 17px 32px 16px;
+}
+
+.activity__label .radio__content {
+  margin-left: 16px;
+}

@@ -1,9 +1,42 @@
 body {
+
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
 }
 
-a {
-  text-decoration: none;
+
+.main__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+
+  font-family: 'Exo 2'sans-serif;
+
+  color: $color-main-font;
+}
+
+.secondary__title {
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+
+  font-family: 'Exo 2'sans-serif;
+
+  color: $color-main-font;
+
+}
+
+.text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+
+  font-family: 'PT Sans'sans-serif;
+
+  color: $color-additional-font;
+
+
 }

@@ -1,0 +1,31 @@
+.header {
+  background-color: $accent-color;
+  padding-bottom: 474px;
+}
+
+.hero__title {
+  padding-top: 75px;
+  color: #fff;
+
+}
+
+.hero__text {
+  margin-top: 22px;
+  color: #fff;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 40px;
+
+  color: #fff;
+
+
+  &::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid $color-line;
+    margin-top: 11px;
+
+  }
+}

@@ -1,0 +1,31 @@
+.services {
+  margin-top: -120px;
+  background-color: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+
+  padding: 24px 27px 32px 32px;
+
+
+  .services__icon {
+    display: flex;
+    width: 68px;
+    height: 68px;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: $color-background-icon;
+    border-radius: 50%;
+
+  }
+
+  .services__title {
+    margin-top: 16px;
+  }
+
+  .services__text {
+    margin-top: 12px;
+
+  }
+}
