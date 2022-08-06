@@ -2,7 +2,7 @@
   margin-top: 64px;
 }
 
-.list {
+.activity__list {
   margin-top: 32px;
 }
 
@@ -11,21 +11,28 @@
 }
 
 .list__item {
-
+  border: 1px solid #fff;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
   border-radius: 10px;
+}
 
-
-
+.list__item:hover {
+  border: 1px solid #0B7572;
 }
 
 .activity__label {
   display: flex;
-  align-items: baseline;
-
+  align-items: flex-start;
   padding: 24px 17px 32px 16px;
-}
 
-.activity__label .radio__content {
-  margin-left: 16px;
+  cursor: pointer;
+
+  .radio__content {
+    margin-left: 16px;
+  }
+
+  .radio__text {
+    margin-top: 16px;
+    font-size: 14px;
+  }
 }

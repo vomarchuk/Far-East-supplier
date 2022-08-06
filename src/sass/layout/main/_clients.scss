@@ -1,0 +1,82 @@
+.clients {
+  margin-top: 68px;
+
+  .box {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: $accent-color;
+  }
+
+
+  .clients__title {
+    color: #fff;
+  }
+
+  .cards__collection {
+    margin-top: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+    border-radius: 4px;
+    background-color: #fff;
+
+    .logo {
+      padding-top: 24px;
+    }
+  }
+
+  .card {
+    margin-top: 24px;
+    padding-bottom: 32px;
+
+    background-color: #F9F9FB;
+
+    .card__title {
+      padding: 7px 16px 6px;
+
+      background-color: $accent-color;
+      border-radius: 2px;
+      font-size: 15px;
+      line-height: 22px;
+      color: #fff;
+    }
+
+    .client__place {
+      padding-left: 16px;
+      padding-right: 16px;
+
+      &::after {
+        content: "";
+        display: block;
+        border: 1px solid #D7D7DD;
+        margin-top: 24px;
+      }
+    }
+
+    .client__address {
+      margin-top: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
+
+      &::after {
+        content: "";
+        display: block;
+        border: 1px solid #D7D7DD;
+        margin-top: 24px;
+      }
+    }
+
+    .client__address .client__title {
+      font-size: 14px;
+      font-weight: 700;
+
+    }
+
+    .client__contact {
+      margin-top: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+
+}

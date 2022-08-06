@@ -20,12 +20,11 @@
 
   color: #fff;
 
-
   &::after {
     content: '';
     display: block;
     border-bottom: 3px solid $color-line;
-    margin-top: 11px;
 
+    margin-top: 8px;
   }
 }

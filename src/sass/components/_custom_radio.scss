@@ -1,0 +1,29 @@
+.custom-radio {
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  position: relative;
+
+  padding: 11px;
+
+  background: #FFFFFF;
+  border: 1px solid #CBCBCD;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+  cursor: pointer;
+
+}
+
+.custom-radio:checked::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  background: $accent-color;
+}

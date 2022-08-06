@@ -1,0 +1,38 @@
+.profit {
+  margin-top: 64px;
+}
+
+.profit__list {
+  margin-top: 48px;
+
+  .profit__item {
+    display: flex;
+    align-items: flex-start;
+
+  }
+
+  .profit__item:not(:first-child) {
+    margin-top: 38px;
+  }
+}
+
+.wrapper {
+  margin-left: 16px;
+
+  .item__text {
+    margin-top: 12px;
+  }
+}
+
+.profit__icon {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  align-items: center;
+  background-color: $color-background-icon;
+  border-radius: 50%;
+
+  .icon {
+    width: 52px;
+  }
+}

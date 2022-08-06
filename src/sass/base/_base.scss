@@ -3,6 +3,8 @@ body {
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
+
+  accent-color: $accent-color;
 }
 
 
@@ -11,7 +13,7 @@ body {
   font-size: 28px;
   line-height: 35px;
 
-  font-family: 'Exo 2'sans-serif;
+  font-family: 'Exo 2', sans-serif;
 
   color: $color-main-font;
 }
@@ -23,7 +25,7 @@ body {
   font-size: 18px;
   line-height: 24px;
 
-  font-family: 'Exo 2'sans-serif;
+  font-family: 'Exo 2', sans-serif;
 
   color: $color-main-font;
 
@@ -34,7 +36,7 @@ body {
   font-size: 15px;
   line-height: 22px;
 
-  font-family: 'PT Sans'sans-serif;
+  font-family: 'PT Sans', sans-serif;
 
   color: $color-additional-font;
 
