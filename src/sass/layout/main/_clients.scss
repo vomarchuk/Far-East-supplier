@@ -5,6 +5,9 @@
     padding-top: 32px;
     padding-bottom: 32px;
     background-color: $accent-color;
+
+    background-image: url(../images/path2195.png);
+    background-repeat: no-repeat;
   }
 
 
@@ -42,41 +45,84 @@
     }
 
     .client__place {
+      margin-top: 18px;
       padding-left: 16px;
       padding-right: 16px;
+      display: flex;
 
-      &::after {
-        content: "";
-        display: block;
-        border: 1px solid #D7D7DD;
-        margin-top: 24px;
+      .client__info {
+        margin-left: 16px;
+
+        .client__text {
+          font-size: 14px;
+          line-height: 19px;
+        }
+
+        .client__cost {
+          margin-top: 12px;
+
+          font-size: 14px;
+          line-height: 19px;
+        }
       }
     }
 
     .client__address {
-      margin-top: 16px;
+      margin-top: 24px;
       padding-left: 16px;
       padding-right: 16px;
 
-      &::after {
+      &::before {
         content: "";
         display: block;
         border: 1px solid #D7D7DD;
-        margin-top: 24px;
+        margin-bottom: 16px;
       }
     }
 
-    .client__address .client__title {
+    .client__address .address__title {
       font-size: 14px;
       font-weight: 700;
 
+    }
+
+    .client__address .address__text {
+      margin-top: 10px;
+      font-size: 14px;
     }
 
     .client__contact {
       margin-top: 16px;
       padding-left: 16px;
       padding-right: 16px;
+
+      &::before {
+        content: "";
+        display: block;
+        border: 1px solid #D7D7DD;
+        margin-bottom: 16px;
+      }
+    }
+
+    .client__contact .client__name {
+      font-weight: 700;
+      font-size: 14px;
+      color: $color-main-font;
+      line-height: 19px;
+    }
+
+    .client__contact .client__position {
+      margin-top: 12px;
+      font-size: 14px;
+      line-height: 19px;
+    }
+
+    .client__contact .client__tel {
+      margin-top: 10px;
+      font-size: 14px;
+      color: $color-main-font;
+      line-height: 19px;
+
     }
   }
-
 }

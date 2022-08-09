@@ -1,0 +1,24 @@
+.contacts {
+  margin-top: 116px;
+
+  .contacts__list {
+    margin-top: 56px;
+  }
+
+  .contact__item {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .contact__item:not(:first-child) {
+    margin-top: 48px;
+  }
+
+  .contact__discription {
+    margin-left: 40px;
+
+    .contact__title {
+      font-size: 20px;
+    }
+  }
+}
