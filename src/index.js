@@ -1,6 +1,6 @@
 import './sass/main.scss';
 import refs from './js/refs';
-import { checkedClientActivity } from './js/chechedClientActivity';
+import { checkedClientActivity } from './js/checkedClientActivity';
 
 const { activityList } = refs;
 
