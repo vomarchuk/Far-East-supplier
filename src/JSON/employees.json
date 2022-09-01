@@ -1,0 +1,53 @@
+[
+  {
+    "firstName": "Антон",
+    "lastName": "Макаров",
+    "position": "Руководитель компании",
+    "avatar": [
+      { "small": "./images/team/Makarov/makarov@1x.jpg" },
+      { "medium": "../images/team/Makarov/makarov@2x.jpg" },
+      { "large": "../images/team/Makarov/makarov@3x.jpg" }
+    ],
+    "social": [
+      { "instagram": "https://www.instagram.com/" },
+      { "vk": "https://vk.com/" },
+      {
+        "linkedin": "https://www.linkedin.com/feed/"
+      }
+    ]
+  },
+  {
+    "firstName": "Елена",
+    "lastName": "Валерьева",
+    "position": "Главный бухгалтер",
+    "avatar": [
+      { "small": "../images/team/Valerieva/valerieva@1x.jpg" },
+      { "medium": "../images/team/Valerieva/valerieva2x.jpg" },
+      { "large": "../images/team/Valerieva/valerieva3x.jpg" }
+    ],
+    "social": [
+      { "instagram": "https://www.instagram.com/" },
+      { "vk": "https://vk.com/" },
+      {
+        "linkedin": "https://www.linkedin.com/feed/"
+      }
+    ]
+  },
+  {
+    "firstName": "Иван",
+    "lastName": "Аркадьев",
+    "position": "Менеджер по закупкам",
+    "avatar": [
+      { "small": "../images/team/Arkadiev/arkadiev1x.jpg" },
+      { "medium": "../images/team/Arkadiev/arkadiev2x.jpg" },
+      { "large": "../images/team/Arkadiev/arkadiev3x.jpg" }
+    ],
+    "social": [
+      { "instagram": "https://www.instagram.com/" },
+      { "vk": "https://vk.com/" },
+      {
+        "linkedin": "https://www.linkedin.com/feed/"
+      }
+    ]
+  }
+]
