@@ -13,6 +13,9 @@
     position: relative;
     display: flex;
 
+    align-items: center;
+
+
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
 
@@ -31,10 +34,13 @@
       margin-left: 36px;
       padding-top: 24px;
       padding-bottom: 32px;
+
+      border-radius: 50%;
     }
 
     .description {
       padding-top: 24px;
+      padding-bottom: 32px;
       margin-left: 16px;
     }
 
@@ -45,8 +51,29 @@
 
     .description .social__list {
       display: flex;
-
       margin-top: 23px;
+    }
+
+    .description .social__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+
+      cursor: pointer;
+
+    }
+
+    .description .social__item:hover {
+      background-color: $accent-color;
+    }
+
+    .description .social__item>a {
+      display: flex;
     }
 
     .description .social__item:not(:first-child) {
