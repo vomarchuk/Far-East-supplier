@@ -15,4 +15,4 @@ module.exports="/Far-East-supplier/sprite.5d6710f0.svg";
 },{"./refs":"VyiV"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=t(require("./js/refs"));require("./js/markups");var i=require("./js/checkedClientActivity");function t(e){return e&&e.__esModule?e:{default:e}}const{activityList:s}=e.default;s.addEventListener("click",i.checkedClientActivity);
 },{"./sass/main.scss":"clu1","./js/refs":"VyiV","./js/markups":"GXM7","./js/checkedClientActivity":"LWRD"}]},{},["Focm"], null)
-//# sourceMappingURL=/Far-East-supplier/src.eda581cd.js.map
+//# sourceMappingURL=/Far-East-supplier/src.79cd1a2d.js.map
