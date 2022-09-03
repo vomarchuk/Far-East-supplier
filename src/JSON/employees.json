@@ -7,7 +7,7 @@
     "social": [
       {
         "link": "https://www.instagram.com/",
-        "icon": "/sprite.dcb1c750.svg#icon-instagram",
+        "icon": "../sprite.dcb1c750.svg#icon-instagram",
         "width": "20",
         "height": "20"
       },
