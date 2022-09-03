@@ -9,9 +9,9 @@ activityList.addEventListener('click', checkedClientActivity);
 
 const formFile = document.querySelector('.form__file');
 
-formFile.addEventListener('change', e => {
-  const uploadedFile = document.createElement('p');
-  uploadedFile.classList.add('form__file-upload');
-  uploadedFile.textContent = formFile.value;
-  formFile.before(uploadedFile);
-});
+// formFile.addEventListener('change', e => {
+//   const uploadedFile = document.createElement('p');
+//   uploadedFile.classList.add('form__file-upload');
+//   uploadedFile.textContent = formFile.value;
+//   formFile.before(uploadedFile);
+// });

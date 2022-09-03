@@ -1,0 +1,42 @@
+.your__info {
+  margin-top: 64px;
+
+  .description {
+    margin-top: 32px;
+
+    &__text {
+      margin-top: 16px;
+    }
+  }
+
+  .tasks {
+    margin-top: 40px;
+
+    .tasks__download {
+      display: inline-flex;
+      margin-top: 16px;
+      align-items: center;
+      text-decoration: underline;
+
+
+      &::before {
+        content: "";
+        background-image: url(../images/icon/file.svg);
+        background-repeat: no-repeat;
+        display: block;
+        margin-right: 16px;
+        width: 15px;
+        height: 20px;
+      }
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+
+
+
+
+
+}
