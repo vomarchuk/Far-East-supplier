@@ -5,10 +5,23 @@
     "position": "Руководитель компании",
     "avatar": "https://joeschmoe.io/api/v1/josh",
     "social": [
-      { "instagram": "https://www.instagram.com/" },
-      { "vk": "https://vk.com/" },
       {
-        "linkedin": "https://www.linkedin.com/feed/",
+        "link": "https://www.instagram.com/",
+        "icon": "/sprite.dcb1c750.svg#icon-instagram",
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "link": "https://vk.com/",
+        "icon": "/sprite.dcb1c750.svg#icon-vk",
+        "width": "29",
+        "height": "17"
+      },
+      {
+        "link": "https://www.linkedin.com/feed/",
+        "icon": "/sprite.dcb1c750.svg#icon-linkedin",
+        "width": "20",
+        "height": "20"
       },
     ],
   },
@@ -18,23 +31,49 @@
     "position": "Главный бухгалтер",
     "avatar": "https://joeschmoe.io/api/v1/jenni",
     "social": [
-      { "instagram": "https://www.instagram.com/" },
-      { "vk": "https://vk.com/" },
       {
-        "linkedin": "https://www.linkedin.com/feed/",
+        "link": "https://www.instagram.com/",
+        "icon": "/sprite.dcb1c750.svg#icon-instagram",
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "link": "https://vk.com/",
+        "icon": "/sprite.dcb1c750.svg#icon-vk",
+        "width": "29",
+        "height": "17"
+      },
+      {
+        "link": "https://www.linkedin.com/feed/",
+        "icon": "/sprite.dcb1c750.svg#icon-linkedin",
+        "width": "20",
+        "height": "20"
       },
     ],
   },
   {
-    "firstName":"Иван",
+    "firstName": "Иван",
     "lastName": "Аркадьев",
     "position": "Менеджер по закупкам",
     "avatar": "https://joeschmoe.io/api/v1/jake",
     "social": [
-      { "instagram": "https://www.instagram.com/" },
-      { "vk": "https://vk.com/" },
       {
-        "linkedin": "https://www.linkedin.com/feed/",
+        "link": "https://www.instagram.com/",
+        "icon": "/sprite.dcb1c750.svg#icon-instagram",
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "link": "https://vk.com/",
+        "icon": "/sprite.dcb1c750.svg#icon-vk",
+        "width": "29",
+        "height": "17"
+      },
+      {
+        "link": "https://www.linkedin.com/feed/",
+        "icon": "/sprite.dcb1c750.svg#icon-linkedin",
+        "width": "20",
+        "height": "20"
       },
     ],
   },
