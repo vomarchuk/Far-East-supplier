@@ -7,23 +7,17 @@
     "social": [
       {
         "link": "https://www.instagram.com/",
-        "icon": "sprite.svg#icon-instagram",
-        "width": "20",
-        "height": "20"
+        "icon": "fa-instagram fa-lg"
       },
       {
         "link": "https://vk.com/",
-        "icon": "./images/icon/sprite.svg#icon-vk",
-        "width": "29",
-        "height": "17"
+        "icon": "fa-vk  fa-lg"
       },
       {
         "link": "https://www.linkedin.com/feed/",
-        "icon": "/sprite.dcb1c750.svg#icon-linkedin",
-        "width": "20",
-        "height": "20"
-      },
-    ],
+        "icon": "fa-linkedin-in  fa-lg"
+      }
+    ]
   },
   {
     "firstName": "Елена",
@@ -33,23 +27,17 @@
     "social": [
       {
         "link": "https://www.instagram.com/",
-        "icon": "/sprite.dcb1c750.svg#icon-instagram",
-        "width": "20",
-        "height": "20"
+        "icon": "fa-instagram fa-lg"
       },
       {
         "link": "https://vk.com/",
-        "icon": "/sprite.dcb1c750.svg#icon-vk",
-        "width": "29",
-        "height": "17"
+        "icon": "fa-vk  fa-lg"
       },
       {
         "link": "https://www.linkedin.com/feed/",
-        "icon": "/sprite.dcb1c750.svg#icon-linkedin",
-        "width": "20",
-        "height": "20"
-      },
-    ],
+        "icon": "fa-linkedin-in  fa-lg"
+      }
+    ]
   },
   {
     "firstName": "Иван",
@@ -59,22 +47,16 @@
     "social": [
       {
         "link": "https://www.instagram.com/",
-        "icon": "/sprite.dcb1c750.svg#icon-instagram",
-        "width": "20",
-        "height": "20"
+        "icon": "fa-instagram fa-lg"
       },
       {
         "link": "https://vk.com/",
-        "icon": "/sprite.dcb1c750.svg#icon-vk",
-        "width": "29",
-        "height": "17"
+        "icon": "fa-vk  fa-lg"
       },
       {
         "link": "https://www.linkedin.com/feed/",
-        "icon": "/sprite.dcb1c750.svg#icon-linkedin",
-        "width": "20",
-        "height": "20"
-      },
-    ],
-  },
-];
+        "icon": "fa-linkedin-in  fa-lg"
+      }
+    ]
+  }
+]

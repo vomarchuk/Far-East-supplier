@@ -8,10 +8,8 @@
       <ul class='social__list'>
         {{#each social}}
           <li class='social__item'>
-            <a href={{link}} target='_blank' rel='noopener'>
-              <svg width={{width}} height={{height}}>
-                <use href={{icon}}></use>
-              </svg>
+            <a href='{{link}}' target='_blank' rel='noopener'>
+              <i class='icon fa-brands {{icon}}'></i>
             </a>
           </li>
         {{/each}}

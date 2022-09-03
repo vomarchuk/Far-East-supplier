@@ -13,6 +13,5 @@ formFile.addEventListener('change', e => {
   const uploadedFile = document.createElement('p');
   uploadedFile.classList.add('form__file-upload');
   uploadedFile.textContent = formFile.value;
-  // formFile.before(uploadedFile);
-  formFile.innerHTML = uploadedFile;
+  formFile.before(uploadedFile);
 });

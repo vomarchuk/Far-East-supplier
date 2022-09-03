@@ -66,14 +66,19 @@
 
       cursor: pointer;
 
+      .icon {
+        color: $color-background;
+      }
+
     }
 
     .description .social__item:hover {
+      transition: 1s;
       background-color: $accent-color;
-    }
 
-    .description .social__item>a {
-      display: flex;
+      .icon {
+        color: #fff;
+      }
     }
 
     .description .social__item:not(:first-child) {
