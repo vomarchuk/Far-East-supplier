@@ -3,4 +3,4 @@ import teamItemsTpl from '../templates/team-items.hbs';
 import refs from './refs';
 const { teamList } = refs;
 
-teamList.insertAdjacentHTML('beforebegin', teamItemsTpl(employees));
+teamList.insertAdjacentHTML('afterbegin', teamItemsTpl(employees));
