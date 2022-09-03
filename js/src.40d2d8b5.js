@@ -17,4 +17,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"./refs":"VyiV"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=i(require("./js/refs"));require("./js/markups");var t=require("./js/checkedClientActivity");function i(e){return e&&e.__esModule?e:{default:e}}const{activityList:r}=e.default;r.addEventListener("click",t.checkedClientActivity);const s=document.querySelector(".form__file");
 },{"./sass/main.scss":"clu1","./js/refs":"VyiV","./js/markups":"GXM7","./js/checkedClientActivity":"LWRD"}]},{},["Focm"], null)
-//# sourceMappingURL=/Far-East-supplier/src.dbce1472.js.map
+//# sourceMappingURL=/Far-East-supplier/src.40d2d8b5.js.map
