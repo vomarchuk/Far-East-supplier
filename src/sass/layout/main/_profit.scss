@@ -1,6 +1,9 @@
 .profit {
   margin-top: 64px;
 
+  .profit__banner {
+    display: none;
+  }
 
   .profit__list {
     margin-top: 48px;
@@ -29,12 +32,64 @@
     width: 52px;
     height: 52px;
     align-items: center;
+    justify-content: center;
     background-color: $color-background-icon;
     border-radius: 50%;
 
-.icon {
-  width: 52px;
-}
+    .icon {
+      width: 52px;
+    }
+  }
+
 }
 
+@media screen and (min-width:$tablet) {
+  .profit {
+    margin-top: 88px;
+
+    .mobile__title {
+      display: none;
+    }
+
+    .profit__banner {
+      display: block;
+      width: $tablet;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 130px 0 150px 39px;
+      background-image: url('../images/profit_bgc2.png'),
+        url('../images/profit_bgc3.png'),
+        url('../images/profit_bgc.png');
+      background-position: left,
+        center;
+      background-repeat: no-repeat;
+
+      .profit__title {
+        color: #fff;
+      }
+    }
+
+    .profit__list .profit__item {
+      align-items: center;
+
+      .profit__icon {
+        width: 88px;
+        height: 88px;
+
+        .icon {
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      &:not(:first-child) {
+        margin-top: 48px;
+      }
+
+      .wrapper {
+        margin-left: 48px;
+      }
+    }
+
+  }
 }
