@@ -33,7 +33,9 @@
     "@mui/material": "^5.10.3",
     "@types/react": "^18.0.18",
     "handlebars": "^4.7.7",
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^8.3.2"
   },
   "customDistStructure": {
     "config": {
