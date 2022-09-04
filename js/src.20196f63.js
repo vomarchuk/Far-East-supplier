@@ -23,4 +23,4 @@ module.exports=[{preview:"https://i.im.ge/2022/09/04/OcHqkx.machine-3751278-640.
 },{"./refs":"VyiV"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=i(require("./js/refs"));require("./js/gallery_services_card/card_markup"),require("./js/markups");var r=require("./js/checkedClientActivity");function i(e){return e&&e.__esModule?e:{default:e}}const{activityList:s}=e.default;s.addEventListener("click",r.checkedClientActivity);
 },{"./sass/main.scss":"clu1","./js/refs":"VyiV","./js/gallery_services_card/card_markup":"SmPU","./js/markups":"GXM7","./js/checkedClientActivity":"LWRD"}]},{},["Focm"], null)
-//# sourceMappingURL=/Far-East-supplier/src.339697f3.js.map
+//# sourceMappingURL=/Far-East-supplier/src.20196f63.js.map
