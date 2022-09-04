@@ -1,0 +1,27 @@
+.card__btn {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  padding: 11px;
+  background: #FFFFFF;
+  border: 1px solid #CBCBCD;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+  cursor: pointer;
+}
+
+.card__btn:hover::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 50%;
+
+  background: $accent-color;
+
+}

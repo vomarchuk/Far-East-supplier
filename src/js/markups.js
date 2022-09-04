@@ -1,35 +1,20 @@
 import employees from '../JSON/employees.json';
 import teamItemsTpl from '../templates/team-items.hbs';
 import { makeCardMarkup } from './gallery_services_card/card_markup';
-
-import refs from './refs';
-const { teamList, workCard, ourWorksContainer } = refs;
-
+import { onCollectionBtnClick } from './gallery_services_card/onCollectionBtnClick';
 import worksCards from '../JSON/finished_works.json';
 
-const itemIndex = worksCards.length - 1;
-let index = 0;
-ourWorksContainer.addEventListener('click', e => {
-  if (e.target.nodeName !== 'BUTTON') {
-    return;
-  }
+import refs from './refs';
+const { teamList, workCard, ourWorksContainer, customRadioCollection } = refs;
 
-  const currentTarget = e.target.dataset.action;
-  if (currentTarget === 'prev') {
-    if (index === 0) index = itemIndex + 1;
-    index--;
-    show(index);
-  }
-
-  if (currentTarget === 'next') {
-    index++;
-    if (index > itemIndex) index = 0;
-    show(index);
+customRadioCollection.forEach(item => {
+  if (item.checked) {
+    console.log(item.checked);
   }
 });
 
-function show(i) {
-  workCard.innerHTML = makeCardMarkup(worksCards[i]);
-}
-show(0);
+export const show = i => (workCard.innerHTML = makeCardMarkup(worksCards[i]));
+ourWorksContainer.addEventListener('click', onCollectionBtnClick);
+
+workCard.innerHTML = makeCardMarkup(worksCards[0]);
 teamList.insertAdjacentHTML('afterbegin', teamItemsTpl(employees));

@@ -5,7 +5,10 @@ const refs = {
   teamList: document.querySelector('.team__list'),
 
   ourWorksContainer: document.querySelector('.our__works'),
+
   workCard: document.querySelector('.wokr__card'),
+
+  customRadioCollection: document.querySelectorAll('.card__slider-radio'),
 };
 
 export default refs;

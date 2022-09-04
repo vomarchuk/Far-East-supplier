@@ -2,9 +2,11 @@
   margin-top: 72px;
 
 
+
   .works__text {
     margin-top: 24px;
   }
+
 
   .card {
     margin-top: 32px;
@@ -50,14 +52,27 @@
         margin-top: 8px;
       }
     }
-
   }
 
-  .card__slider {
-    display: flex;
-    margin-top: 24px;
-    justify-content: center;
+  .wrapper {
+    position: relative;
 
+    .button__collection {
+      display: flex;
+
+      .btn-prev {
+        position: absolute;
+        top: 111px;
+        left: 5px;
+      }
+
+      .btn-next {
+        position: absolute;
+        top: 111px;
+        right: 5px;
+      }
+
+    }
   }
 
 }

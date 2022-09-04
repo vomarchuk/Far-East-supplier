@@ -4,8 +4,6 @@ export const makeCardMarkup = card => {
     alt,
     description: { title, description, price },
   } = card;
-  console.log(title);
-
   return `
     <img class="card__img" src=${preview}  alt=${alt} />
     <h2 class="card__title secondary__title">${title}</h2>
