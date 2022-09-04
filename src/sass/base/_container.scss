@@ -9,16 +9,13 @@
   margin-right: auto;
 
 
+  @media screen and (min-width:$tablet) {
+    width: $tablet;
+    padding-left: 39px;
+    padding-right: 39px;
 
-  // @media screen and (min-width: $mobile) {
-  //   max-width: $mobile;
-  // }
 
-  // @media screen and (min-width:$tablet) {
-  //   width: $tablet;
-  //   padding-left: 39px;
-  //   padding-left: 39px;
-  // }
+  }
 
   // @media screen and (min-width:$desktop) {
   //   width: $desktop;

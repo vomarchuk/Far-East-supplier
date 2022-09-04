@@ -1,6 +1,15 @@
-.header {
+.section__header .container {
   background-color: $accent-color;
+}
+
+.header {
   padding-bottom: 474px;
+
+  .rectangle,
+  .hero__img {
+    display: none;
+  }
+
 }
 
 .hero__title {
@@ -27,4 +36,36 @@
 
     margin-top: 8px;
   }
+}
+
+
+@media (min-width: $tablet) {
+  .section__header .container {
+    background: linear-gradient(90deg, #fff 75%, $accent-color 25%);
+  }
+
+  .header {
+    padding-bottom: 0;
+
+    .hero__title {
+      color: $color-main-font;
+      padding-right: 206px;
+    }
+
+    .hero__text {
+      color: $color-additional-font;
+      padding-right: 206px;
+    }
+
+    .link {
+      font-size: 16px;
+      color: currentColor;
+    }
+
+    .hero__img {
+      display: block;
+      padding-top: 56px;
+    }
+  }
+
 }

@@ -3,8 +3,6 @@ body {
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
-
-  accent-color: $accent-color;
 }
 
 
@@ -16,6 +14,11 @@ body {
   font-family: 'Exo 2', sans-serif;
 
   color: $color-main-font;
+
+  @media screen and (min-width:$tablet) {
+    font-size: 44px;
+    line-height: 55px;
+  }
 }
 
 .secondary__title {
@@ -29,6 +32,10 @@ body {
 
   color: $color-main-font;
 
+  @media screen and (min-width:$tablet) {
+    font-size: 20px;
+    line-height: 27px;
+  }
 }
 
 .text {
@@ -39,6 +46,11 @@ body {
   font-family: 'PT Sans', sans-serif;
 
   color: $color-additional-font;
+
+  @media screen and (min-width:$tablet) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 
 
 }
