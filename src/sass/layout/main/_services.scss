@@ -1,10 +1,9 @@
 .services {
   margin-top: -120px;
-  background-color: #fff;
+  padding: 24px 27px 32px 32px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
-
-  padding: 24px 27px 32px 32px;
+  background-color: #fff;
 
 
   .services__icon {
@@ -17,19 +16,58 @@
 
     background-color: $color-background-icon;
     border-radius: 50%;
-
   }
 
-  .services__title {
+  .description__title {
     margin-top: 16px;
   }
 
-  .services__text {
+  .description__text {
     margin-top: 12px;
+  }
+}
 
+@media screen and (min-width:$tablet) {
+  .services {
+    margin-top: 41px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+
+    .services__item {
+      display: flex;
+      padding: 32px;
+
+      align-items: center;
+
+
+      border-radius: 20px;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+
+
+      &:not(:first-child) {
+        margin-top: 16px;
+      }
+    }
+
+    .services__icon {
+      width: 92px;
+      height: 92px;
+      margin-right: 32px;
+
+      .icon {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    .description__title {
+      margin: 0;
+    }
+
+    .description__text {
+      margin-top: 20px;
+    }
   }
 
-  @media screen and (min-width:$tablet) {
-    margin-top: 0;
-  }
 }

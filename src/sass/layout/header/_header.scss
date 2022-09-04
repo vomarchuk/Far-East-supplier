@@ -5,17 +5,14 @@
 .header {
   padding-bottom: 474px;
 
-  .rectangle,
   .hero__img {
     display: none;
   }
-
 }
 
 .hero__title {
   padding-top: 75px;
   color: #fff;
-
 }
 
 .hero__text {
@@ -37,7 +34,6 @@
     margin-top: 8px;
   }
 }
-
 
 @media (min-width: $tablet) {
   .section__header .container {
@@ -67,5 +63,4 @@
       padding-top: 56px;
     }
   }
-
 }
