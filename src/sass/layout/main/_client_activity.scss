@@ -1,6 +1,9 @@
 .client__activity {
   margin-top: 64px;
 
+  .description__section {
+    display: none;
+  }
 
   .activity__list {
     margin-top: 32px;
@@ -13,7 +16,7 @@
   }
 
   .list__item {
-    border: 1px solid #fff;
+    border: 1px solid #E9E9EC;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
     border-radius: 10px;
   }
@@ -43,4 +46,42 @@
     }
   }
 
+}
+
+
+@media screen and (min-width:$tablet) {
+  .client__activity {
+    margin-top: 88px;
+
+    .description__section {
+      display: block;
+      margin-top: 32px;
+    }
+
+    .activity__list {
+      margin-top: 48px;
+    }
+
+    .list__item {
+      background: linear-gradient(165deg, #fff 85%, #E9E9EC 15%);
+
+
+
+      &:not(:first-child) {
+        margin-top: 16px;
+      }
+    }
+
+    .activity__label {
+      padding: 40px;
+
+      .radio__content {
+        margin-left: 32px;
+        padding-right: 150px;
+      }
+
+    }
+
+
+  }
 }
