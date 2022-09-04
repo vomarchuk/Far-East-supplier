@@ -1,74 +1,84 @@
 [
   {
-    "preview": "https://cdn.pixabay.com/photo/2019/05/14/16/43/himilayan-blue-poppy-4202825__340.jpg",
+    "preview": "https://pixabay.com/get/g3075ab70dacf3e44f2604d05e38252a3ccd9eed630ed4cf69b7645960c629493274c19286c89547a7fed3249924f1cc4_640.jpg",
+    "alt": "Equipment",
     "description": {
-      "title": "Flowers",
+      "title": "Plant equipment",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
-      "price": "20 000 грн"
+      "price": "9 999 EUR"
     }
   },
   {
-    "preview": "https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677__340.jpg",
+    "preview": "https://pixabay.com/get/g814ba83687222fd5b805769964b0ca9b6eb1be51dbfa2882bdb774d57b11181042b20f428beaee35165dc703fe79143e_640.jpg",
+    "alt": "Containers",
     "description": {
-      "title": "Сommodity containers",
+      "title": "Goods containers",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
-      "price": "40 000 грн"
+      "price": "9 999 EUR"
     }
   },
   {
-    "preview": "https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785__340.jpg",
+    "preview": "https://pixabay.com/get/g5602547eb41d585fe36eabdb519bfcd3cfb772eec7b42926f785604a53560927fbf55dbf0b94366bf82110d9d4edae83_640.jpg",
+    "alt": "Equipment",
     "description": {
-      "title": "Fish",
+      "title": "Lawn mowers",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
-      "price": "30 000 грн"
+      "price": "9 999 EUR"
     }
   },
   {
-    "preview": "https://cdn.pixabay.com/photo/2016/11/18/16/19/flowers-1835619__340.jpg",
+    "preview": "https://pixabay.com/get/g15c1c5a1949b20955c8f0f8fabf58b88d848781d295081e631309e64a338b9d487937b678cb09124d8da0deeb153be7c_640.jpg",
+    "alt": "Drones",
     "description": {
-      "title": "",
-      "description": "",
-      "price": ""
-    }
-  },
-  {
-    "preview": "https://cdn.pixabay.com/photo/2018/09/13/10/36/mountains-3674334__340.jpg",
-    "description": {
-      "title": "",
-      "description": "",
-      "price": ""
-    }
-  },
-  {
-    "preview": "https://cdn.pixabay.com/photo/2019/05/16/23/04/landscape-4208571__340.jpg",
-    "description": {
-      "title": "Pleasure boat",
+      "title": "Drones",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
-      "price": "140 000 грн"
+      "price": "9 999 EUR"
     }
   },
   {
-    "preview": "https://cdn.pixabay.com/photo/2019/05/17/09/27/the-alps-4209272__340.jpg",
+    "preview": "https://pixabay.com/get/gb346074e34a4420de716ff031a5dfb854b1ab9277b7919d29252e99c17974e54d97c6a1c12a60b1dd36d03ecbd6cca0c_640.jpg",
+    "alt": "Containers",
     "description": {
-      "title": "",
-      "description": "",
-      "price": ""
+      "title": "Goods containers",
+
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
+      "price": "9 999 EUR"
     }
   },
   {
-    "preview": "https://cdn.pixabay.com/photo/2019/05/16/21/10/landscape-4208255__340.jpg",
+    "preview": "https://pixabay.com/get/ga02f56abd5602f21a6f8fa00c157f4c7daece149617b653b9a5e22ed314d8cb450a9db6bc5a9ad1ef4d98c0460adf8b2_640.jpg",
+    "alt": "Electrics",
     "description": {
-      "title": "",
-      "description": "",
-      "price": ""
+      "title": "Office electrics",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
+      "price": "9 999 EUR"
     }
   },
   {
-    "preview": "https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843__340.jpg",
+    "preview": "https://pixabay.com/get/g47767d73f19568c71d452a076785f86d216e2962ea95b0e7497d151525ec379052f97c913057dd26f4367358a1074665_640.jpg",
+    "alt": "Electrics",
     "description": {
-      "title": "",
-      "description": "",
-      "price": ""
+      "title": "Home electrics",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
+      "price": "9 999 EUR"
+    }
+  },
+  {
+    "preview": "https://pixabay.com/get/g15c1c5a1949b20955c8f0f8fabf58b88d848781d295081e631309e64a338b9d487937b678cb09124d8da0deeb153be7c_640.jpg",
+    "alt": "Drones",
+    "description": {
+      "title": "Drones",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
+      "price": "9 999 EUR"
+    }
+  },
+  {
+    "preview": "https://pixabay.com/get/gb346074e34a4420de716ff031a5dfb854b1ab9277b7919d29252e99c17974e54d97c6a1c12a60b1dd36d03ecbd6cca0c_640.jpg",
+    "alt": "Containers",
+    "description": {
+      "title": "Goods containers",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
+      "price": "9 999 EUR"
     }
   }
 ]

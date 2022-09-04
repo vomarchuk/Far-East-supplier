@@ -4,6 +4,7 @@ const refs = {
 
   teamList: document.querySelector('.team__list'),
 
+  ourWorksContainer: document.querySelector('.our__works'),
   workCard: document.querySelector('.wokr__card'),
 };
 

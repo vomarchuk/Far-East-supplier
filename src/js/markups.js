@@ -3,35 +3,33 @@ import teamItemsTpl from '../templates/team-items.hbs';
 import { makeCardMarkup } from './gallery_services_card/card_markup';
 
 import refs from './refs';
-const { teamList, workCard } = refs;
+const { teamList, workCard, ourWorksContainer } = refs;
 
 import worksCards from '../JSON/finished_works.json';
 
-teamList.insertAdjacentHTML('afterbegin', teamItemsTpl(employees));
-workCard.insertAdjacentHTML('afterbegin', makeCardMarkup(worksCards[1]));
-
-const itemIndex = worksCards.length;
-
-let index = 6;
-workCard.addEventListener('click', e => {
+const itemIndex = worksCards.length - 1;
+let index = 0;
+ourWorksContainer.addEventListener('click', e => {
   if (e.target.nodeName !== 'BUTTON') {
     return;
   }
 
   const currentTarget = e.target.dataset.action;
   if (currentTarget === 'prev') {
-    console.log('PREV');
+    if (index === 0) index = itemIndex + 1;
+    index--;
+    show(index);
   }
 
   if (currentTarget === 'next') {
-    console.log('NEXT');
-    index += 1;
-    console.log(index);
-
+    index++;
+    if (index > itemIndex) index = 0;
     show(index);
   }
 });
 
 function show(i) {
-  workCard;
+  workCard.innerHTML = makeCardMarkup(worksCards[i]);
 }
+show(0);
+teamList.insertAdjacentHTML('afterbegin', teamItemsTpl(employees));
