@@ -4,14 +4,7 @@ const refs = {
 
   teamList: document.querySelector('.team__list'),
 
-  ourWorksContainer: document.querySelector('.our__works'),
-
-  workCard: document.querySelector('.wokr__card'),
-
-  customRadioCollection: document.querySelectorAll('.card__slider-radio'),
+  collectionCards: document.querySelector('.card__collection'),
 };
 
 export default refs;
-
-const btnPrevCard = document.querySelector('button[data-action="prev"]');
-const btnNexCard = document.querySelector('button[data-action="next"]');
