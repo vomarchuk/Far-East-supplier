@@ -10,7 +10,6 @@
     background-repeat: no-repeat;
   }
 
-
   .clients__title {
     color: #fff;
   }
@@ -124,5 +123,42 @@
       line-height: 19px;
 
     }
+  }
+}
+
+.table__clients {
+  border-collapse: collapse;
+
+  h2,
+  p {
+    font-size: 14px;
+
+  }
+
+
+  .table__header {
+    background-color: $accent-color;
+  }
+
+  .header__title {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 36px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  tbody td {
+    padding: 24px 10px 24px 16px;
+
+
+    &:first-child {
+      border-left: none;
+    }
+
+    &:last-child {
+      border-right: none;
+    }
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
   }
 }

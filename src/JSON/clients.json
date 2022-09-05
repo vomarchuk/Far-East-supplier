@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Завод “Hlobalkhim”",
+    "logo": "",
+    "address": "г. Киев, проспект Кутузовский, д. 12 стр. 1 этаж, пом. 1",
+    "description": {
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
+      "orderAmount": 30000
+    },
+    "contact": {
+      "name": "Коваль Иван Борисович",
+      "position": "Руководитель отдела поставок",
+      "number": "+ 48 321 321 321"
+    }
+  },
+  {
+    "name": "Даниловский строительный завод",
+    "logo": "",
+    "address": "Киев, Даниловская наб., д. 8 стр. 1 этаж, пом. 2",
+    "description": {
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
+      "orderAmount": 25000
+    },
+    "contact": {
+      "name": "Лубен Валерий Вячеславович",
+      "position": "Руководитель отдела поставок",
+      "number": "+ 48 123 123 123"
+    }
+  },
+  {
+    "name": "Завод “Malasan”",
+    "logo": "",
+    "address": "г. Киев, проспект Кутузовский, д. 12 стр. 1 этаж, пом. 1",
+    "description": {
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
+      "orderAmount": 50000
+    },
+    "contact": {
+      "name": "Коваль Иван Борисович",
+      "position": "Руководитель отдела поставок",
+      "number": "+ 48 423 234 423"
+    }
+  }
+]
