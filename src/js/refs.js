@@ -4,7 +4,8 @@ const refs = {
 
   teamList: document.querySelector('.team__list'),
 
-  collectionCards: document.querySelector('.card__collection'),
+  collectionCompletedWorksCards: document.querySelector('.card__collection'),
+  tableAttractedClients: document.querySelector('.table__clients'),
 };
 
 export default refs;

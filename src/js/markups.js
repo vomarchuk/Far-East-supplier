@@ -1,11 +1,17 @@
 import employees from '../JSON/employees.json';
 import teamItemsTpl from '../templates/team-items.hbs';
-import { makeCardsMarkup } from './makeCardsMarkup';
-import worksCards from '../JSON/finished_works.json';
+import tableAttractedClientsTpl from '../templates/attracted-client-item.hbs';
+import { makeCompletedWorkCardsMarkup } from './makeCompletedWorkCardsMarkup';
+import attractedClients from '../JSON/attractedClients.json';
+import completedWorksCards from '../JSON/finished_works.json';
 
 import refs from './refs';
-const { teamList, collectionCards } = refs;
+const { teamList, collectionCompletedWorksCards, tableAttractedClients } = refs;
 
-collectionCards.insertAdjacentHTML('afterbegin', makeCardsMarkup(worksCards));
+collectionCompletedWorksCards.insertAdjacentHTML(
+  'afterbegin',
+  makeCompletedWorkCardsMarkup(completedWorksCards),
+);
 
 teamList.insertAdjacentHTML('afterbegin', teamItemsTpl(employees));
+tableAttractedClients.insertAdjacentHTML('afterbegin', tableAttractedClientsTpl(attractedClients));

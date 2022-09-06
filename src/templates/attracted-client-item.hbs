@@ -1,0 +1,32 @@
+<thead class='table__header'>
+  <tr>
+    <th class='header__title secondary__title'>Фото</th>
+    <th class='header__title'>Название</th>
+    <th class='header__title'>Производитель</th>
+    <th class='header__title'>Контакт</th>
+  </tr>
+</thead>
+<tbody class='tbody'>
+  {{#each this}}
+    <tr>
+      <td class='image'><img src='./images/Rectangle.png' /></td>
+      <td class='description'>
+        <p class='text description__text'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.
+        </p>
+        <p class='secondary__title description__amount'>120 000 EUR</p>
+      </td>
+      <td class='producer'>
+        <h2 class='secondary__title producer__title'>{{name}}</h2>
+        <address class='text producer__text'>
+          {{address}}
+        </address>
+      </td>
+      <td class='contact'>
+        <h2 class='secondary__title contact__title'>Коваль Иван Борисович</h2>
+        <p class='text contact__text'>Руководитель отдела поставок</p>
+        <a class='text contact__number' href='tel:+48 537 600 755'>+48 537 600 755</a>
+      </td>
+    </tr>
+  {{/each}}
+</tbody>

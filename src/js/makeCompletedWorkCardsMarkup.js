@@ -27,7 +27,7 @@ const swiper = new Swiper('.mySwiper', {
   },
 });
 
-export const makeCardsMarkup = collection => {
+export const makeCompletedWorkCardsMarkup = collection => {
   return collection
     .map(i => {
       const {
