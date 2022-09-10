@@ -1,7 +1,6 @@
 .delivery {
   margin-top: 64px;
 
-  // .delivery__list {}
 
   .list__item {
     position: relative;
@@ -31,5 +30,29 @@
     left: 7%;
     top: 50%;
     transform: translate(-100%, -50%);
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .delivery {
+    margin-top: 88px;
+
+    .delivery__list {
+      margin-top: 48px;
+    }
+
+    .list__number {
+      width: 60px;
+      height: 60px;
+      left: 30px;
+    }
+
+    .list__item {
+      padding: 40px 70px 48px 79px;
+    }
+
+    .item_text {
+      margin-top: 48px;
+    }
   }
 }

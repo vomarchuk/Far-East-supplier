@@ -137,6 +137,7 @@
 
   .table__clients {
     display: block;
+    margin-top: 24px;
     border-collapse: collapse;
 
     h2,
@@ -144,7 +145,6 @@
       font-size: 14px;
 
     }
-
 
     .table__header {
       background-color: $accent-color;
@@ -158,8 +158,7 @@
     }
 
     tbody td {
-      padding: 24px 10px 24px 16px;
-
+      background-color: #F9F9FB;
 
       &:first-child {
         border-left: none;
@@ -170,6 +169,16 @@
       }
 
       border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .image {
+      padding: 0 16px;
+    }
+
+    .description,
+    .producer,
+    .contact {
+      padding: 10px 10px;
     }
   }
 }

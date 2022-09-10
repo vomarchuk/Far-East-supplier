@@ -5,15 +5,19 @@
     margin-top: 32px;
   }
 
-  .team__item:not(:first-child) {
-    margin-top: 14px;
-  }
-
   .team__item {
+    &:not(:first-child) {
+      margin-top: 14px;
+    }
+
+    &:nth-child(n+4) {
+      display: none;
+    }
+
     position: relative;
     display: flex;
 
-    align-items: center;
+    align-items: flex-start;
 
 
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
@@ -32,10 +36,11 @@
 
     .photo {
       margin-left: 36px;
-      padding-top: 24px;
-      padding-bottom: 32px;
+      margin-top: 24px;
 
       border-radius: 50%;
+
+      background-color: $color-background-icon;
     }
 
     .description {
@@ -55,34 +60,87 @@
     }
 
     .description .social__item {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-
       cursor: pointer;
+
+      &:not(:first-child) {
+        margin-left: 20px;
+      }
 
       .icon {
         color: $color-background;
+
+        &:hover {
+          color: $accent-color;
+          transition: 1s;
+        }
       }
 
     }
 
-    .description .social__item:hover {
-      transition: 1s;
-      background-color: $accent-color;
+  }
+}
 
-      .icon {
-        color: #fff;
+
+@media screen and (min-width: $tablet) {
+  .team__list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .team__item {
+      width: calc(50% - 15px);
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 60px;
+
+      .rotate {
+        width: 30px;
+        left: 0;
+      }
+
+      .photo {
+        margin-left: 0;
+      }
+
+      .description {
+        padding: 0 0 32px;
+        margin: 16px 0 0;
+      }
+
+      .description .text {
+        margin-top: 12px;
+
+        &:after {
+          content: "";
+          display: block;
+          width: 86px;
+          border-bottom: 3px solid #FFCE50;
+          margin-top: 10px;
+        }
+      }
+
+
+      .description .social__list {
+        margin-top: 20px;
+      }
+
+
+
+      &:not(:first-child) {
+        margin-top: 0px;
+      }
+
+      &:nth-child(n+4) {
+        display: flex;
+      }
+
+      &:nth-child(n+3) {
+        margin-top: 24px;
+      }
+
+      &:nth-child(2n) {
+        margin-left: 30px;
       }
     }
 
-    .description .social__item:not(:first-child) {
-      margin-left: 20px;
-    }
   }
 }

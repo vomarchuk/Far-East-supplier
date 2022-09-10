@@ -58,5 +58,25 @@
         "icon": "fa-linkedin-in  fa-lg"
       }
     ]
+  },
+  {
+    "firstName": "Борис",
+    "lastName": "Вавилов",
+    "position": "Бухгалтер",
+    "avatar": "https://joeschmoe.io/api/v1/jacques",
+    "social": [
+      {
+        "link": "https://www.instagram.com/",
+        "icon": "fa-instagram fa-lg"
+      },
+      {
+        "link": "https://vk.com/",
+        "icon": "fa-vk  fa-lg"
+      },
+      {
+        "link": "https://www.linkedin.com/feed/",
+        "icon": "fa-linkedin-in  fa-lg"
+      }
+    ]
   }
 ]

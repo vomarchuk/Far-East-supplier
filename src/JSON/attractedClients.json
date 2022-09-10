@@ -1,7 +1,7 @@
 [
   {
     "name": "Завод “Hlobalkhim”",
-    "logo": "",
+    "logo": "https://i.im.ge/2022/09/08/OzQHKX.Rectangle.png",
     "address": "г. Киев, проспект Кутузовский, д. 12 стр. 1 этаж, пом. 1",
     "description": {
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
@@ -15,7 +15,7 @@
   },
   {
     "name": "Даниловский строительный завод",
-    "logo": "",
+    "logo": "https://i.im.ge/2022/09/08/OzQHKX.Rectangle.png",
     "address": "Киев, Даниловская наб., д. 8 стр. 1 этаж, пом. 2",
     "description": {
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Завод “Malasan”",
-    "logo": "",
+    "logo": "https://i.im.ge/2022/09/08/OzQHKX.Rectangle.png",
     "address": "г. Киев, проспект Кутузовский, д. 12 стр. 1 этаж, пом. 1",
     "description": {
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
