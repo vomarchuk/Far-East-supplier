@@ -10,19 +10,49 @@
 
   .proceedings__item:not(:first-child) {
     margin-top: 24px;
+  }
 
-    &::before {
-      content: "";
-      display: block;
-      margin-bottom: 24px;
-      border: 1px solid #D7D7DD;
-
-    }
+  .proceedings__item:not(:last-child) {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #D7D7DD;
   }
 
   .proceedings__title {
     margin-top: 14px;
     font-size: 16px;
     line-height: 20px;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .proceedings {
+    margin-top: 64px;
+
+    .container {
+      padding: 32px 28px 48px;
+    }
+
+    .proceedings__item {
+      display: flex;
+
+      &:not(:first-child) {
+        margin-top: 32px;
+      }
+
+      &:not(:last-child) {
+        padding-bottom: 16px;
+
+      }
+    }
+
+    .proceedings__item .text {
+      width: 175px;
+    }
+
+    .proceedings__title {
+      margin: 0 0 0 16px;
+      width: 511px;
+      word-wrap: break-word;
+    }
   }
 }
