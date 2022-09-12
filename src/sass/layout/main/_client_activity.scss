@@ -1,6 +1,10 @@
 .client__activity {
   margin-top: 64px;
 
+  .voting__results {
+    display: none;
+  }
+
   .description__section {
     display: none;
   }
@@ -8,8 +12,6 @@
   .activity__list {
     margin-top: 32px;
   }
-
-
 
   .list__item:not(:first-child) {
     margin-top: 10px;
@@ -45,7 +47,6 @@
       font-size: 14px;
     }
   }
-
 }
 
 
@@ -65,8 +66,6 @@
     .list__item {
       background: linear-gradient(165deg, #fff 85%, #E9E9EC 15%);
 
-
-
       &:not(:first-child) {
         margin-top: 16px;
       }
@@ -79,9 +78,41 @@
         margin-left: 32px;
         padding-right: 150px;
       }
+    }
+  }
+}
 
+@media screen and (min-width: $desktop) {
+  .client__activity {
+    .description__section {
+      width: 60%;
     }
 
+    .wrapper {
+      display: flex;
+      margin-top: 40px;
+    }
 
+    .activity__list {
+      margin-top: 0;
+      width: 60%;
+    }
+
+    .voting__results {
+      display: block;
+      margin-left: 140px;
+
+      p {
+        display: inline;
+        padding-bottom: 39px;
+        border-bottom: 3px solid $color-line;
+      }
+
+      span {
+        color: $color-additional-font;
+      }
+    }
   }
+
+
 }
