@@ -17,9 +17,9 @@
 
   }
 
-  // @media screen and (min-width:$desktop) {
-  //   width: $desktop;
-  //   padding-left: 100px;
-  //   padding-right: 100px;
-  // }
+  @media screen and (min-width:$desktop) {
+    width: $desktop;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }

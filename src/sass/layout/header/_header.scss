@@ -64,3 +64,30 @@
     }
   }
 }
+
+@media screen and (min-width:$desktop) {
+  .section__header .container {
+    background: linear-gradient(90deg, #fff 65%, $accent-color 35%);
+  }
+
+  .header {
+    display: flex;
+    padding-top: 109px;
+    padding-bottom: 173px;
+
+    .hero__title,
+    .hero__text {
+      padding-right: 10px;
+    }
+
+    .hero__text {
+      margin-top: 40px;
+    }
+
+    .hero__img {
+      padding-top: 0px;
+      width: 635px;
+      height: 405px;
+    }
+  }
+}
