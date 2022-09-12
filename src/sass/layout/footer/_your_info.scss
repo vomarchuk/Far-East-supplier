@@ -50,3 +50,34 @@
     }
   }
 }
+
+
+@media screen and (min-width: $tablet) {
+  .your__info {
+    margin-top: 88px;
+
+    .wrapper {
+      margin-top: 40px;
+      padding: 32px 72px 48px 40px;
+      background-color: #F9F9FB;
+    }
+
+    .description {
+      margin: 0;
+    }
+
+    .tasks {
+      margin-top: 48px;
+    }
+
+    .photo {
+      margin-top: 48px;
+
+      .goods__image {
+        width: 175px;
+        height: 136px;
+      }
+    }
+  }
+
+}
