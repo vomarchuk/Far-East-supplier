@@ -11,3 +11,13 @@
     margin-top: 40px;
   }
 }
+
+@media screen and (min-width: $tablet) {
+  .video__block {
+    margin-top: 88px;
+
+    video {
+      width: 100%;
+    }
+  }
+}
