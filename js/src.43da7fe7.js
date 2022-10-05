@@ -229,4 +229,4 @@ module.exports=[{preview:"https://i.im.ge/2022/09/04/OcHqkx.machine-3751278-640.
 },{"./refs":"VyiV"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=t(require("./js/refs"));require("./js/markups");var i=require("./js/checkedClientActivity");function t(e){return e&&e.__esModule?e:{default:e}}const{activityList:s}=e.default;s.addEventListener("click",i.checkedClientActivity);
 },{"./sass/main.scss":"clu1","./js/refs":"VyiV","./js/markups":"GXM7","./js/checkedClientActivity":"LWRD"}]},{},["Focm"], null)
-//# sourceMappingURL=/Far-East-supplier/src.5f4f1dca.js.map
+//# sourceMappingURL=/Far-East-supplier/src.43da7fe7.js.map
