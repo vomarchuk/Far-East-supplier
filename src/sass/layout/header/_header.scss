@@ -1,93 +1,93 @@
-.section__header .container {
-  background-color: $accent-color;
-}
+ .header__container {
+   background-color: $accent-color;
+ }
 
-.header {
-  padding-bottom: 474px;
+ .header {
+   padding-bottom: 474px;
+ }
 
-  .hero__img {
-    display: none;
-  }
-}
+ .header__title {
+   padding-top: 75px;
+   color: #fff;
+ }
 
-.hero__title {
-  padding-top: 75px;
-  color: #fff;
-}
+ .header__text {
+   margin-top: 22px;
+   color: #fff;
+ }
 
-.hero__text {
-  margin-top: 22px;
-  color: #fff;
-}
+ .link {
+   display: inline-block;
+   margin-top: 40px;
 
-.link {
-  display: inline-block;
-  margin-top: 40px;
+   color: #fff;
 
-  color: #fff;
+   &::after {
+     content: '';
+     display: block;
+     margin-top: 8px;
 
-  &::after {
-    content: '';
-    display: block;
-    border-bottom: 3px solid $color-line;
+     border-bottom: 3px solid $color-line;
+   }
+ }
 
-    margin-top: 8px;
-  }
-}
+ .hero__img {
+   display: none;
+ }
 
-@media (min-width: $tablet) {
-  .section__header .container {
-    background: linear-gradient(90deg, #fff 75%, $accent-color 25%);
-  }
+ @media (min-width: $tablet) {
+   .header__container {
+     background: linear-gradient(90deg, #fff 75%, $accent-color 25%);
+   }
 
-  .header {
-    padding-bottom: 0;
+   .header {
+     padding-bottom: 0;
 
-    .hero__title {
-      color: $color-main-font;
-      padding-right: 206px;
-    }
+     .header__title {
+       color: $color-main-font;
+       padding-right: 206px;
+     }
 
-    .hero__text {
-      color: $color-additional-font;
-      padding-right: 206px;
-    }
+     .header__text {
+       color: $color-additional-font;
+       padding-right: 206px;
+     }
 
-    .link {
-      font-size: 16px;
-      color: currentColor;
-    }
+     .link {
+       font-size: 16px;
+       color: currentColor;
+     }
 
-    .hero__img {
-      display: block;
-      padding-top: 56px;
-    }
-  }
-}
+     .hero__img {
+       display: block;
+       padding-top: 56px;
+     }
+   }
+ }
 
-@media screen and (min-width:$desktop) {
-  .section__header .container {
-    background: linear-gradient(90deg, #fff 65%, $accent-color 35%);
-  }
+ @media screen and (min-width:$desktop) {
+   .header__container {
+     background: linear-gradient(90deg, #fff 65%, $accent-color 35%);
+   }
 
-  .header {
-    display: flex;
-    padding-top: 109px;
-    padding-bottom: 173px;
+   .header {
+     display: flex;
+     padding-top: 109px;
+     padding-bottom: 173px;
 
-    .hero__title,
-    .hero__text {
-      padding-right: 10px;
-    }
+     .header__title {
+       padding-right: 10px;
+     }
 
-    .hero__text {
-      margin-top: 40px;
-    }
+     .header__text {
+       margin-top: 40px;
+       padding-right: 10px;
+     }
 
-    .hero__img {
-      padding-top: 0px;
-      width: 635px;
-      height: 405px;
-    }
-  }
-}
+     .hero__img {
+       padding-top: 0px;
+       width: 635px;
+       height: 405px;
+     }
+   }
+ }
