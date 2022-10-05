@@ -1,7 +1,13 @@
 {{#each this}}
   <li class='team__item'>
     <div class='rotate'></div>
-    <img class='photo' width='100' src={{avatar}} alt='avatar {{firstName}} {{lastName}}' />
+    <img
+      class='photo'
+      width='100'
+      height='100'
+      src={{avatar}}
+      alt='avatar {{firstName}} {{lastName}}'
+    />
     <div class='description'>
       <h2 class='secondary__title'>{{firstName}} {{lastName}}</h2>
       <p class='text'>{{position}}</p>

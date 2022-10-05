@@ -1,21 +1,23 @@
 .delivery {
   margin-top: 64px;
 
-
-  .list__item {
-    position: relative;
-    padding: 24px 22px 24px 43px;
-
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
-    border-radius: 10px;
-
+  .list {
+    margin-top: 30px;
   }
 
-  .list__item:not(:first-child) {
+  .item {
+    position: relative;
+    padding: 24px 22px 24px 43px;
+    margin-left: 28px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+  }
+
+  .item:not(:first-child) {
     margin-top: 14px;
   }
 
-  .list__number {
+  .item__number {
     position: absolute;
     display: flex;
     width: 52px;
@@ -27,9 +29,14 @@
     color: #fff;
     border-radius: 50%;
     font-size: 30px;
-    left: 7%;
+    left: 26px;
     top: 50%;
     transform: translate(-100%, -50%);
+  }
+
+  .item__text {
+    margin-top: 16px;
+    font-size: 15px;
   }
 }
 
@@ -37,21 +44,24 @@
   .delivery {
     margin-top: 88px;
 
-    .delivery__list {
+    .list {
       margin-top: 48px;
     }
 
-    .list__number {
-      width: 60px;
-      height: 60px;
-      left: 30px;
-    }
-
-    .list__item {
+    .item {
       padding: 40px 70px 48px 79px;
+      margin-left: 0;
     }
 
-    .item_text {
+    .item__number {
+      width: 68px;
+      height: 68px;
+      left: 34px;
+
+      font-size: 38px;
+    }
+
+    .item__text {
       margin-top: 48px;
     }
   }
