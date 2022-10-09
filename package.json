@@ -35,7 +35,8 @@
     "handlebars": "^4.7.7",
     "react": "^18.2.0",
     "slick-carousel": "^1.8.1",
-    "swiper": "^8.3.2"
+    "swiper": "^8.3.2",
+    "terser": "^5.15.1"
   },
   "customDistStructure": {
     "config": {
