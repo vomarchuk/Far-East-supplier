@@ -1,4 +1,8 @@
 .our__works {
+  br {
+    display: none;
+  }
+
   margin-top: 72px;
 
   .works__text {
@@ -11,8 +15,6 @@
   }
 
   .swiper-slide {
-
-    text-align: center;
     font-size: 18px;
     background: #fff;
 
@@ -38,6 +40,13 @@
     align-items: flex-start;
 
     cursor: pointer;
+
+    .card__img {
+      display: block;
+      width: 345px;
+      height: 222px;
+      object-fit: cover;
+    }
 
     .card__title {
       margin-top: 22px;
@@ -70,17 +79,37 @@
         margin-top: 8px;
       }
     }
-
-    img {
-      display: block;
-      width: 345px;
-      height: 222px;
-      object-fit: cover;
-    }
   }
 
   .swiper-pagination {
     position: relative;
     margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .our__works br {
+    display: block;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .our__works {
+    margin-top: 120px;
+
+    .works__title {
+      font-size: 48px;
+    }
+
+    .swiper-slide {
+
+      .card__img {
+        width: 100%;
+      }
+
+      .card__text {
+        padding-right: 70px;
+      }
+    }
   }
 }

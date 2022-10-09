@@ -82,7 +82,6 @@
     .client__address .address__title {
       font-size: 14px;
       font-weight: 700;
-
     }
 
     .client__address .address__text {
@@ -121,7 +120,6 @@
       font-size: 14px;
       color: $color-main-font;
       line-height: 19px;
-
     }
   }
 }
@@ -180,5 +178,17 @@
     .contact {
       padding: 10px 10px;
     }
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .box {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .clients__title {
+    font-size: 48px;
+    line-height: 60px;
   }
 }
