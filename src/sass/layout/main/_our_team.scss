@@ -19,7 +19,6 @@
 
     align-items: flex-start;
 
-
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
 
@@ -74,12 +73,9 @@
           transition: 1s;
         }
       }
-
     }
-
   }
 }
-
 
 @media screen and (min-width: $tablet) {
   .team__list {
@@ -118,12 +114,9 @@
         }
       }
 
-
       .description .social__list {
         margin-top: 20px;
       }
-
-
 
       &:not(:first-child) {
         margin-top: 0px;
@@ -141,6 +134,5 @@
         margin-left: 30px;
       }
     }
-
   }
 }

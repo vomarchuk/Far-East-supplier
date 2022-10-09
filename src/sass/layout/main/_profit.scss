@@ -7,16 +7,15 @@
 
   .profit__list {
     margin-top: 48px;
+  }
 
-    .profit__item {
-      display: flex;
-      align-items: flex-start;
+  .profit__item {
+    display: flex;
+    align-items: flex-start;
+  }
 
-    }
-
-    .profit__item:not(:first-child) {
-      margin-top: 38px;
-    }
+  .profit__item:not(:first-child) {
+    margin-top: 38px;
   }
 
   .wrapper {
@@ -40,7 +39,6 @@
       width: 52px;
     }
   }
-
 }
 
 @media screen and (min-width:$tablet) {
@@ -54,14 +52,14 @@
     .profit__banner {
       display: block;
       width: $tablet;
+      height: 380px;
       margin-left: auto;
       margin-right: auto;
       padding: 130px 0 150px 39px;
-      background-image: url('../images/profit_bgc2.png'),
-        url('../images/profit_bgc3.png'),
-        url('../images/profit_bgc.png');
-      background-position: left,
-        center;
+
+      background-image: url('../images/profit_banner.png');
+      background-size: cover;
+      background-position: -78px;
       background-repeat: no-repeat;
 
       .profit__title {
@@ -71,25 +69,68 @@
 
     .profit__list .profit__item {
       align-items: center;
+    }
 
-      .profit__icon {
-        width: 88px;
-        height: 88px;
+    .profit__item:not(:first-child) {
+      margin-top: 48px;
+    }
 
-        .icon {
-          width: 50px;
-          height: 50px;
-        }
-      }
+    .profit__icon {
+      width: 88px;
+      height: 88px;
 
-      &:not(:first-child) {
-        margin-top: 48px;
-      }
-
-      .wrapper {
-        margin-left: 48px;
+      .icon {
+        width: 50px;
+        height: 50px;
       }
     }
 
+    .wrapper {
+      margin-left: 48px;
+    }
+
+  }
+}
+
+@media screen and (min-width:$desktop) {
+  .profit {
+    margin-top: 100px;
+
+    .profit__banner {
+      width: $desktop;
+
+    }
+
+    .profit__title {
+      font-size: 48px;
+      padding-left: 100px;
+    }
+
+    .profit__list {
+      margin-top: 78px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .profit__item {
+      width: 447px;
+    }
+
+    .profit__item:not(:first-child) {
+      margin-top: 0px;
+    }
+
+    .profit__item:nth-child(1n+3) {
+      margin-top: 62px;
+    }
+
+    .profit__icon {
+      padding: 26px;
+    }
+
+    .wrapper {
+      margin-left: 40px;
+    }
   }
 }
