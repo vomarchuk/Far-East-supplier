@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "firstName": "Антон",
     "lastName": "Макаров",
     "position": "Руководитель компании",
@@ -20,6 +21,7 @@
     ]
   },
   {
+    "id": 2,
     "firstName": "Елена",
     "lastName": "Валерьева",
     "position": "Главный бухгалтер",
@@ -40,6 +42,7 @@
     ]
   },
   {
+    "id": 3,
     "firstName": "Иван",
     "lastName": "Аркадьев",
     "position": "Менеджер по закупкам",
@@ -60,10 +63,53 @@
     ]
   },
   {
+    "id": 4,
     "firstName": "Борис",
     "lastName": "Вавилов",
     "position": "Бухгалтер",
     "avatar": "https://joeschmoe.io/api/v1/jacques",
+    "social": [
+      {
+        "link": "https://www.instagram.com/",
+        "icon": "fa-instagram fa-lg"
+      },
+      {
+        "link": "https://vk.com/",
+        "icon": "fa-vk  fa-lg"
+      },
+      {
+        "link": "https://www.linkedin.com/feed/",
+        "icon": "fa-linkedin-in  fa-lg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "firstName": "Алина",
+    "lastName": "Кравец",
+    "position": "Сотрудник отдела кадров",
+    "avatar": "https://joeschmoe.io/api/v1/jocelyn",
+    "social": [
+      {
+        "link": "https://www.instagram.com/",
+        "icon": "fa-instagram fa-lg"
+      },
+      {
+        "link": "https://vk.com/",
+        "icon": "fa-vk  fa-lg"
+      },
+      {
+        "link": "https://www.linkedin.com/feed/",
+        "icon": "fa-linkedin-in  fa-lg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "firstName": "Виктор",
+    "lastName": "Козуб",
+    "position": "Менеджер по закупкам",
+    "avatar": "https://joeschmoe.io/api/v1/jordan",
     "social": [
       {
         "link": "https://www.instagram.com/",
