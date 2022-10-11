@@ -17,17 +17,41 @@
   .contact__description {
     margin-left: 32px;
 
-    .contact__text {
+    .text {
       font-size: 20px;
     }
   }
+
+  .proceedings__list {
+    margin-top: 72px;
+    padding: 40px 24px 48px;
+
+    background-color: #F9F9FB;
+    border-radius: 3px;
+  }
+
+  .proceedings__item:not(:first-child) {
+    margin-top: 24px;
+  }
+
+  .proceedings__item:not(:last-child) {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #D7D7DD;
+  }
+
+  .proceedings__title {
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
+
 
 @media screen and (min-width: $tablet) {
   .contacts {
     margin-top: 100px;
 
-    .contacts__list {
+    .wrapper {
       margin-top: 64px;
     }
 
@@ -35,9 +59,60 @@
       margin-top: 44px;
     }
 
-    .contact__description .contact__text {
-      font-size: 16px;
+    .contact__description .text {
+      font-size: 14px;
     }
 
+    .proceedings__list {
+      padding: 32px 28px 48px;
+    }
+
+    .proceedings__item {
+      display: flex;
+
+      &:not(:first-child) {
+        margin-top: 32px;
+      }
+
+      &:not(:last-child) {
+        padding-bottom: 16px;
+      }
+    }
+
+    .proceedings__item .text {
+      width: 175px;
+    }
+
+    .proceedings__title {
+      margin-top: 0;
+
+      padding-left: 37px;
+      width: 511px;
+
+    }
+  }
+}
+
+@media screen and (min-width:$desktop) {
+  .contacts {
+    margin-top: 130px;
+
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .contacts__list {
+      margin-top: 0;
+    }
+
+    .proceedings__list {
+      margin-top: 0;
+    }
+
+    .proceedings__title {
+      padding-right: 72px;
+    }
   }
 }
